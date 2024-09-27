@@ -1,0 +1,141 @@
+.wrap-our-services {
+    margin-top: 35px;
+    padding-top: 5%;
+}
+
+.heading-our-services {
+    font-size: 13px;
+    font-family: Gilroy;
+    line-height: 15.72px;
+    letter-spacing: 1.63px;
+    font-weight: 700;
+    color: #f64b4b;
+    text-align: center;
+}
+
+.our-services-con {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-size: 36px;
+    font-family: Gilroy;
+    line-height: 48px;
+    letter-spacing: -1.2px;
+    font-weight: 700;
+    color: #161C2D;
+    align-items: center;
+    width: 502px;
+}
+
+.boxes-wrap {
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.box {
+    width: 350px;
+    height: 483px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.box-1 {
+    background: #68D585;
+    text-align: center;
+}
+
+.box-2 {
+    background: #473BF0;
+    text-align: center;
+}
+
+.box-3 {
+    background: #F64B4B;
+    text-align: center;
+}
+
+.box:hover {
+    scale: 1.03;
+}
+
+.svg-box {
+    margin-top: 50px;
+}
+
+.box-content {
+    padding: 20px 40px;
+    padding-left: 24px;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 29px;
+    letter-spacing: -0.2px;
+}
+
+
+.box-content-heading {
+    margin-top: 30px;
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: -0.5px;
+    color: #ffffff;
+}
+
+
+.learn-more {
+    font-weight: 700;
+    size: 17px;
+    line-height: 32px;
+    letter-spacing: -0.6px;
+    color: #ffffff;
+}
+
+.learn-more:hover {
+    color: whitesmoke;
+    cursor: pointer;
+    text-decoration: solid;
+    scale: 1.02;
+}
+
+.review-con {
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.stars {
+    padding: 1px;
+    margin-left: 125px;
+    margin-top: -119px;
+}
+
+.review-content {
+    margin-left: 296px;
+    margin-top: -107px;
+    font-size: 24px;
+    letter-spacing: -0.5px;
+    line-height: 34px;
+    font-size: 24px;
+    color:  #161C2D;
+    font-family: Gilroy;
+
+}
+
+.dev-name {
+    margin-left: 297px;
+    font-weight: 700;
+    // line-height: 29px;
+    font-size: 17px;
+    letter-spacing: -0.2px;
+}
+
+.dev-name-desig{
+    text-align: center;
+    margin-top: -22px;
+    margin-left: -140px;
+    font-family: Gilroy;
+    font-weight: 400;
+    // line-height: 29px;
+    font-size: 17px;
+    letter-spacing: -0.2px;
+}

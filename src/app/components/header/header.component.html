@@ -1,0 +1,30 @@
+<p class="text-3xl font-bold underline text-green-500">header works!</p>
+
+<div class="row">
+
+    <div class="col-3">
+        <p>{{firstName}}</p>
+    </div>
+    <div class="col-3">
+        {{date}}
+    </div>
+    <div class="col-3">
+       {{selectedField}}
+    </div>
+
+    <div class="col-3">
+     <input type="text" [value]="firstName" class="form-control">
+    </div>
+
+    <div class="col-3">
+      <input [type]="inputType">
+    </div>
+
+    <div class="col-3">
+       <input [(ngModel)]="selectedField"> 
+    </div>
+    
+    <div class="col-3">
+        <button class="btn btn-success" (click)="showMessage()">Show alert message</button>
+    </div>
+</div>

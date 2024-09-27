@@ -1,1 +1,76 @@
 /* You can add global styles to this file, and also import other style files */
+// @tailwind base;
+// @tailwind components;
+// @tailwind utilities;
+
+body {
+    background: url(assets/images/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.flex-1 {
+    flex: 1 1 0;
+}
+
+.flex-2 {
+    flex: 2 2 0;
+}
+
+.flex-5 {
+    flex: 5 5 0;
+}
+
+.getStartedBut {
+    background-color: #473BF0;
+    color: white;
+    /* Optional: for text color */
+    border: none;
+    /* Optional: to remove border */
+    padding: 4px 12px;
+    /* Optional: adjust padding */
+    border-radius: 8px;
+    /* Optional: for rounded corners */
+    cursor: pointer;
+    /* Optional: change cursor on hover */
+    width: 209px;
+    height: 50px;
+    top: 13px;
+    align-items: center;
+    font-size: 17px;
+    display: block;
+    // margin-left: auto;
+}
+
+.getStartedBut:hover {
+    background-color: #372bc0;
+    /* Optional: darker shad e on hover */
+}
+
+.heading-our {
+    font-size: Gilroy;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15.72px;
+    letter-spacing: 1.63px;
+    color: #F64B4B;
+}
+
+@media (max-width: 767px){
+    .app-warp {
+        width: 100% !important;
+    }
+    .hero-wrap {
+        flex-direction: column;
+    }
+    .boxes-wrap {
+        flex-direction: column;
+        align-items: center;
+    }
+    .review-con {
+        margin-left: 0;
+        .review-content {
+            margin-left: 200px;
+        }
+    }
+}

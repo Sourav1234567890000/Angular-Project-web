@@ -1,0 +1,46 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 16px;
+    align-items: baseline;
+}
+
+.font-text {
+    font-weight : 700;
+    font-size: 15px;
+    letter-spacing: -0.1px;
+    font-family: Gilroy;
+    font-style: Gilroy;
+}   
+
+.getStartedBut {
+    background-color: #473BF0;
+    color: white; /* Optional: for text color */
+    border: none; /* Optional: to remove border */
+    padding: 4px 12px; /* Optional: adjust padding */
+    border-radius: 8px; /* Optional: for rounded corners */
+    cursor: pointer; /* Optional: change cursor on hover */
+    width: 209px;
+    height: 50px;
+    top: 13px;
+    align-items: center;
+    font-size: 17px;
+    display: block;
+    margin-left: auto;
+  }
+  
+  .getStartedBut:hover {
+    background-color: #372bc0; /* Optional: darker shad e on hover */
+  }
+
+  .brainWave {
+    font-weight: 700;
+    font-style: Rubik;
+    font-family: Rubik;
+    color: #161C2D;
+    font-size: 24px;
+}
+
+
+

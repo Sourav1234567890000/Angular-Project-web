@@ -1,0 +1,103 @@
+.footer {
+    background: #161C2D;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-left: 112px;
+    padding-right: 26px;
+    padding-bottom: 82px;
+}
+
+.content-1 {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.Brainwave {
+    font-family: Rubik;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 33.18px;
+    letter-spacing: -0.15555556118488312px;
+    text-align: left;
+}
+
+.con-brainwave {
+    font-family: Gilroy;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: -0.10000000149011612px;
+    text-align: left;
+}
+
+
+//   .list-1 .heading {
+//     display: flex;
+//     flex-direction: column; /* Set flex direction to column (vertical) */
+//     justify-content: space-between; /* Space between items */
+//     align-items: flex-start; /* Align items to the start (left) */
+//   }
+
+//   .list-1  ul {
+//     display: flex;
+//     flex-direction: column; /* Ensure the list is vertical */
+//     justify-content: space-between; /* Distribute space evenly between items */
+//     list-style-type: none; /* Remove bullets */
+//     padding: 0;
+//     margin: 0;
+//   }
+
+//   .list-1  li {
+//     margin-bottom: 20px; /* Optional: Adds space between the list items */
+//   }
+
+//   .list-1  li:last-child {
+//     margin-bottom: 0; /* Removes space after the last item */
+//   }
+
+
+/* General styling for all lists */
+div[class^="list-"] .heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+div[class^="list-"] ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    padding-top: 20px;
+}
+
+.style-list {
+    font-family: Gilroy;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 40px;
+    // letter-spacing: -0.20000000298023224px;
+    text-align: left;
+}
+
+.heading {
+    font-family: Gilroy;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    // letter-spacing: -0.10000000149011612px;
+    text-align: left;
+    opacity: 65%;
+}
+
+.social-med {
+    margin-top: -120px;
+    margin-left: 111px;
+}

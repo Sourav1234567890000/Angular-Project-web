@@ -1,0 +1,112 @@
+.wrap-our-story {
+    margin-top: 158px;
+    padding: 30px;
+}
+
+.heading-our-story {
+    font-size: Gilroy;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15.72px;
+    letter-spacing: 1.63px;
+    color: #F64B4B;
+}
+
+.our-story-con {
+    font-size: Gilroy;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: -1.2px;
+    color: #161C2D;
+    width: 511px;
+    padding-top: 42px;
+}
+
+.images-and-con {
+    display: flex;
+    justify-content: space-between;
+}
+
+.con-img-1 {
+    margin-top: 80px;
+}
+
+
+/* Define the animation */
+@keyframes slideIn {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    50% {
+      opacity: 0.5;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  /* Apply the animation to the div */
+  .con-img-1 {
+    background-color: #3498db;
+    color: white;
+    animation: slideIn 3s ease-out; /* Animation Name, Duration, and Timing Function */
+  }
+  
+// .con-img-2 {
+//     // background-color: #3498db;
+//     // color: white;
+//     animation: slideIn 3s ease-out; 
+// }
+
+// .con-img-4 {
+//     animation: slideIn 5s ease-in-out 0.8s alternate;
+// }
+
+// .con-img-1:hover {
+//     background-color: #3498db;
+//     color: white;
+//     animation: slideIn 3s step-end;
+// }
+
+
+
+
+
+
+
+.con-img-2 {
+    text-align: center;
+    margin-top: -12px;
+    margin-left: 23px;
+}
+
+.content-ourstory {
+    margin-top: 98px;
+    margin-left: 61px;
+    font-family: Gilroy;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: -0.20000000298023224px;
+    text-align: left;
+
+}
+
+.con-img-dot-3 {
+    margin-left: -88px;
+    margin-top: -44px;
+}
+
+.review-percentage {
+    padding: 62px 30px;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.con-img-4 {
+    margin: auto 0;
+}
